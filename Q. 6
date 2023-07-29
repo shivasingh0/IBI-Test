@@ -1,0 +1,31 @@
+Callback hell is a phenomenon that happens when multiple callbacks are nested on top of each other. The two common ways of escaping the callback here are by using promises and async/await. Promises mainly have three stages such as resolved, rejected, and pending. It makes the code more maintainable and understandable.
+
+Example -- Using promise
+
+asyncOperation1()
+  .then(asyncOperation2)
+  .then(asyncOperation3)
+  .then(asyncOperation4)
+  .then((finalResult) => {
+    // Handle the final result
+  })
+  .catch((error) => {
+    // Handle errors
+  });
+
+Example -- Using Async/Await
+
+async function doAsyncOperations() {
+  try {
+    const result1 = await asyncOperation1();
+    const result2 = await asyncOperation2(result1);
+    const result3 = await asyncOperation3(result2);
+    const finalResult = await asyncOperation4(result3);
+    // Handle the final result
+  } catch (error) {
+    // Handle errors
+  }
+}
+
+// Usage
+doAsyncOperations();

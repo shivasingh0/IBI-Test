@@ -1,0 +1,1 @@
+outPut is 1 4 2 3 - 1 and 4 call immediately according to line and 2 and 3 print after the delay of 0 and 100 ms because setTimeOut

@@ -1,0 +1,5 @@
+1. Sharding in MongoDB is a data distribution strategy that enables horizontal scaling and handling large datasets by distributing data across multiple servers or shards.
+2. Sharding uses a shard key to determine how data is distributed across shards.
+3. Each shard contains a portion of the dataset, and the mongos routers direct queries to the appropriate shard based on the shard key.
+4. Sharding provides horizontal scalability, improved performance, and isolation of data.
+5. Choosing an appropriate shard key is critical for efficient data distribution and minimizing data migrations.

@@ -1,0 +1,5 @@
+Promise chaining is a technique in JavaScript used to perform a sequence of asynchronous operations one after the other using Promises. It allows you to write cleaner and more readable code when dealing with multiple asynchronous tasks that depend on the results of each other.
+Promise has 3 states -
+1. Pending - This state represents the initial state or fulfilled or rejected.
+2. Fulfilled - This state represents that the asynchronous program is fulfilled successfully.
+3. Rejected - This state represents that the asynchronous program is rejected.

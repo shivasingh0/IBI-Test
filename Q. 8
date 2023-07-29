@@ -1,0 +1,1 @@
+The output is 1 4 3 2 because of setTimeout 3 immediately called.and 2 delays the time 1 and 4 

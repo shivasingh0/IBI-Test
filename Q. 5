@@ -1,0 +1,1 @@
+HOC is an advanced technique in react for reusing components. It is not a part of the rest API. HOCs take a component and return a new component.
